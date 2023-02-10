@@ -5,3 +5,4 @@ print(math.cosine(1))
 """
 import math
 print(math.cos(1))
+
