@@ -4,11 +4,24 @@
 至少包含一个大写字母；
 密码至少6位数；
 """
-import string
+# import string
+# while True:
+#     password = input("请输入你的用户密码：")
+#     word = str(password)
+#     if len(word) >=6:
+#         for i in string.ascii_lowercase:
+#             if i in word:
+#                 print(f'你输入的密码是：{word}，已生效！')
+#
+#     else:
+#         print('你输入的密码不符合要求，请重新输入！')
 while True:
-    password = input("请输入你的用户密码：")
-    len = len(password)
-    if string.ascii_lowercase in password and string.ascii_uppercase in password and len >=6:
-        print(f'你输入的密码是：{password}，已生效！')
+    pwd = input("请输入密码: ")
+    have_number = any([i.isdigit() for i in pwd])
+    have_upper = any([i.isupper() for i in pwd])
+
+    if have_number and have_upper and len(pwd) >= 6:
+        print("密码校验通过")
+        break
     else:
-        print('你输入的密码不符合要求，请重新输入！')
+        print("密码校验不通过，请重新输入")
