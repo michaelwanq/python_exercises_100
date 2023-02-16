@@ -1,11 +1,3 @@
-# favarite_dict = {}
-# name_list = []
-# favarite_list = []
-# with open('p085.txt') as f:
-#     for line in f:
-#         name,favarites = line.strip().split()
-#         favarite_dict['name'] = favarites
-
 like_count = {}
 
 with open("p085.txt", encoding='utf8') as fin:

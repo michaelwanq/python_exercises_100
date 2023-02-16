@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="PROJECT" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/python_exercises_100/20230213/ex87.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/python_exercises_100/20230215/文件处理统计/ex87_判断日期格式.py" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
